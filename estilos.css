@@ -1,0 +1,85 @@
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+#contenedor{
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(240, 240, 240);
+}
+
+h1{
+    padding-top: 2%;
+}
+
+.sub_titulo{
+    margin-bottom: 3%;
+}
+
+#perfil_cont{
+    display: flex;
+    padding: 0 170px; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+img.img_perfil{
+    height: 250px;
+    width: auto;
+}
+
+
+div.perfil_info h2{
+    font-size:28pt;
+    letter-spacing: 2pt;
+}
+
+div.perfil_info > p{
+    font-size: 9pt;
+    
+}
+
+table, p, h1, h2.sub_titulo{
+    text-align: center;
+}
+
+
+
+ul.l_conocimiento li{
+    list-style: none;
+   margin: 20px 0;
+}
+
+ul.l_conocimiento li span{
+    font-weight: bold;
+}
+
+ul.l_conocimiento{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#t_experiencia, #t_educacion{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td{
+    padding-bottom: 2%;
+    padding-right: 45px;
+}
+
+hr.linea{
+    width: 90%;
+    margin: 4% auto;
+}
+  
